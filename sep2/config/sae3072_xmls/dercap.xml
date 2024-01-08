@@ -1,0 +1,30 @@
+<DERCapability xmlns="urn:ieee:std:2030.5:ns" href="/edev/1/der/1/dercap">
+ <modesSupported>01DD69AB</modesSupported>
+ <rtgAbnormalCategory></rtgAbnormalCategory>
+ <rtgMaxW>
+ <multiplier>0</multiplier>
+ <value>6500</value>
+ </rtgMaxW>
+ <rtgNormalCategory>1</rtgNormalCategory>
+ <rtgOverExcitedPF>
+ <displacement>800</displacement>
+ <multiplier>-3</multiplier>
+ </rtgOverExcitedPF>
+ <rtgOverExcitedW>
+ <multiplier>0</multiplier>
+ <value>6000</value>
+ </rtgOverExcitedW>
+ <rtgReactiveSusceptance>
+ <multiplier>0</multiplier>
+ <value>0</value>
+ </rtgReactiveSusceptance>
+ <rtgUnderExcitedPF>
+ <displacement>800</displacement>
+ <multiplier>-3</multiplier>
+ </rtgUnderExcitedPF>
+ <rtgUnderExcitedW>
+ <multiplier>0</multiplier>
+ <value>6000</value>
+ </rtgUnderExcitedW>
+ <type>81</type>
+</DERCapability>

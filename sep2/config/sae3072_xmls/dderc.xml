@@ -1,0 +1,15 @@
+<DefaultDERControl xmlns="urn:ieee:std:2030.5:ns"
+ href="/pev/derp/1/dderc" subscribable="1">
+ <mRID>DDDD000100010000000000000000D17E</mRID>
+ <description>Default DERC</description>
+ <DERControlBase>
+ <opModEnergize>false</opModEnergize>
+ </DERControlBase>
+ <setESDelay>30000</setESDelay>
+ <setESHighFreq>6100</setESHighFreq>
+ <setESHighVolt>10500</setESHighVolt>
+ <setESLowFreq>5900</setESLowFreq>
+ <setESLowVolt>9500</setESLowVolt>
+ <setESRampTms>6000</setESRampTms>
+ <setESRandomDelay>0</setESRandomDelay>
+</DefaultDERControl>

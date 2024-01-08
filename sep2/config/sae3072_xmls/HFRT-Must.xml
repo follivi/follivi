@@ -1,0 +1,29 @@
+<DERCurve xmlns="urn:ieee:std:2030.5:ns" href="/pev/derp/1/dc/2">
+ <mRID>EEEE000200000000000000000000D17E</mRID>
+ <description>HFRT-Must</description>
+ <creationTime>1670691600</creationTime>
+ <CurveData>
+ <xvalue>16</xvalue>
+ <yvalue>6300</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>16</xvalue>
+ <yvalue>6200</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>30000</xvalue>
+ <yvalue>6200</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>30000</xvalue>
+ <yvalue>6150</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>10000</xvalue>
+ <yvalue>6150</yvalue>
+ </CurveData>
+ <curveType>2</curveType>
+ <xMultiplier>-2</xMultiplier>
+ <yMultiplier>-2</yMultiplier>
+ <yRefType>0</yRefType>
+</DERCurve>

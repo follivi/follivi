@@ -1,0 +1,25 @@
+<DERCurve xmlns="urn:ieee:std:2030.5:ns" href="/pev/derp/1/dc/11">
+ <mRID>EEEE000B00000000000000000000D17E</mRID>
+ <description>Volt-Var</description>
+ <creationTime>1670691600</creationTime>
+ <CurveData>
+ <xvalue>9000</xvalue>
+ <yvalue>10000</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>9800</xvalue>
+ <yvalue>0</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>10200</xvalue>
+ <yvalue>0</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>11000</xvalue>
+ <yvalue>-10000</yvalue>
+ </CurveData>
+ <curveType>11</curveType>
+ <xMultiplier>-2</xMultiplier>
+ <yMultiplier>-2</yMultiplier>
+ <yRefType>1</yRefType>
+</DERCurve>

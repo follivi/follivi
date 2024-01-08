@@ -1,0 +1,6 @@
+<DERControlResponse xmlns="urn:ieee:std:2030.5:ns">
+ <createdDateTime>1670695205</createdDateTime>
+ <endDeviceLFDI>A2038B8645F15C66D889FFBC4352AC0B8CDACBA1</endDeviceLFDI>
+ <status>2</status>
+ <subject>CCCC000A00000000000000000000D17E</subject>
+</DERControlResponse>

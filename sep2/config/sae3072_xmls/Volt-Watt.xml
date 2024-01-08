@@ -1,0 +1,17 @@
+<DERCurve xmlns="urn:ieee:std:2030.5:ns" href="/pev/derp/1/dc/12">
+ <mRID>EEEE000C00000000000000000000D17E</mRID>
+ <description>Volt-Watt</description>
+ <creationTime>1670691600</creationTime>
+ <CurveData>
+ <xvalue>10200</xvalue>
+ <yvalue>10000</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>11000</xvalue>
+ <yvalue>0</yvalue>
+ </CurveData>
+ <curveType>12</curveType>
+ <xMultiplier>-2</xMultiplier>
+ <yMultiplier>-2</yMultiplier>
+ <yRefType>0</yRefType>
+</DERCurve>

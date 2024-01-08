@@ -1,0 +1,13 @@
+<DeviceInformation xmlns="urn:ieee:std:2030.5:ns" href="/edev/1/di">
+ <lFDI>A2038B8645F15C66D889FFBC4352AC0B8CDACBA1</lFDI>
+ <mfDate>1606809600</mfDate>
+ <mfHwVer>J3072 Certified</mfHwVer>
+ <mfID>37250</mfID>
+ <mfInfo>PEV Maker</mfInfo>
+ <mfModel>ISM Value</mfModel>
+ <mfSerNum>PEV VIN</mfSerNum>
+ <primaryPower>2</primaryPower>
+ <secondaryPower>0</secondaryPower>
+ <swActTime>1668099600</swActTime>
+ <swVer>PEV SW 1.0</swVer>
+</DeviceInformation>

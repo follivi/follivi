@@ -1,0 +1,72 @@
+#
+sep2_wadl:
+  path: sep_wadl.xml
+  
+server:
+  # General info
+  info:
+    ip: '0.0.0.0'
+    port: 7000
+    encript: False
+    certificates:
+      cafile: cafile.pem
+      keyfile: keyfile.pem
+      certfile: _certfile.pem  
+    IEEE2030_5_server_sfdi: 413707194130
+    IEEE2030_5_server_lfdi: 29834592834729384728374562039847629
+    device_category: 0020
+    timezone: America/Montreal
+  # programs
+  programs:
+    # programs associated with grid topology
+    topology:
+      system: 
+        tag: A1 # name or notation of whole system to be managed e.g. A1
+        primacy: 89
+      substransmission: 
+        tag: # should be a list of substransmission groups to be managed. e.g A1-B1, A1-B2, .....
+        primacy: 
+      substation: 
+        tag: # should be a list of substation groups to be managed e.g A1-B1-C1,A1-B1-C2, etc
+        primacy: 
+      feeder: 
+        tag: # should be a list of feeder groups to be managed A1-B1-C1-D1,A1-B1-C1-D2, 
+        primacy:
+      segment: 
+        tag: # should be a list of segment groups to be managed e.g. A1-B1-C1-D1-E1, A1-B1-C1-D1-E2,
+        primacy:
+      transformer: 
+        tag: # should be a list of transformer groups to be managed e.g. A1-B1-C1-D1-E1-F1, etc
+          - A1-B1-C1-D1-E1-F1
+          # - A1-B1-C1-D1-E1-F2
+        primacy:
+      service: 
+        tag: # should be a list of substation groups to be managed A1-B1-C1-D1-E1-F1
+        primacy:
+    # programs used to manage custom der on needs
+    custom: # should be list of custom groups that are managed on needs
+      tag:
+        - HOTSPOT1
+      primacy: 89
+
+devices:
+  dev1:
+    info:
+      sfdi: 197935300833
+      lfdi: 247bd68e3378fe57ba604e3c8bdf9e3f78a3d743
+      device_category: ELECTRIC_VEHICLE_SUPPLY_EQUIPMENT
+      pin: 130178 
+    function_set_assignments:
+      programs:
+        - A1-B1-C1-D1-E1-F1
+    flow_reservation: False
+  dev2:
+    info:
+      sfdi: 111576577659
+      lfdi: 2990c58a59935a7d5838c952b1a453c967341a07
+      device_category: ENERGY_MANAGEMENT_SYSTEM
+      pin: 130178
+    function_set_assignments:
+      programs:
+        - A1-B1-C1-D1-E1-F1
+    flow_reservation:

@@ -1,0 +1,7 @@
+<DERAvailability xmlns="urn:ieee:std:2030.5:ns" href="/edev/1/der/1/dera">
+ <availabilityDuration>12000</availabilityDuration>
+ <maxChargeDuration>18000</maxChargeDuration>
+ <readingTime>1670691670</readingTime>
+ <reserveChargePercent>2500</reserveChargePercent>
+ <reservePercent>2500</reservePercent>
+</DERAvailability>

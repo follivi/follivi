@@ -1,0 +1,170 @@
+<DERControlList xmlns="urn:ieee:std:2030.5:ns" href="/pev/derp/1/derc" subscribable="1" all="9" results="3">
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000900000000000000000000D17E</mRID>
+        <description>MI-Freq-Droop</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+        <duration>4294967295</duration>
+        <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModFreqDroop>
+                <dBOF>61000</dBOF>
+                <dBUF>59000</dBUF>
+                <kOF>100</kOF>
+                <kUF>100</kUF>
+                <openLoopTms>200</openLoopTms>
+            </opModFreqDroop>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000800000000000000000000D17E</mRID>
+        <description>MI-HFRT-Must</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+        <duration>4294967295</duration>
+        <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModHFRTMustTrip href="/pev/derp/1/dc/2"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000700000000000000000000D17E</mRID>
+        <description>MI-HVRT-MomCess</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+        <duration>4294967295</duration>
+        <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModHVRTMomentaryCessation href="/pev/derp/1/dc/4"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000600000000000000000000D17E</mRID>
+        <description>MI-HVRT-Must</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+        <duration>4294967295</duration>
+        <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModHVRTMustTrip href="/pev/derp/1/dc/5"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000500000000000000000000D17E</mRID>
+        <description>MI-LFRT-Must</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+            <duration>4294967295</duration>
+            <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModLFRTMustTrip href="/pev/derp/1/dc/7"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000400000000000000000000D17E</mRID>
+        <description>MI-LVRT-MomCess</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+            <duration>4294967295</duration>
+            <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModLVRTMomentaryCessation href="/pev/derp/1/dc/9"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000300000000000000000000D17E</mRID>
+        <description>MI-LVRT-Must</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+            <duration>4294967295</duration>
+            <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModLVRTMustTrip href="/pev/derp/1/dc/10"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000200000000000000000000D17E</mRID>
+        <description>MI-Volt-Var</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+        <duration>4294967295</duration>
+        <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+        <opModVoltVar href="/pev/derp/1/dc/11"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+    <DERControl href="/pev/derp/1/derc/1" replyTo="/rsps/1/rsp" responseRequired="07">
+        <mRID>CCCC000100000000000000000000D17E</mRID>
+        <description>MI-Volt-Watt</description>
+        <creationTime>1670691600</creationTime>
+        <EventStatus>
+        <currentStatus>1</currentStatus>
+        <dateTime>1670691600</dateTime>
+        <potentiallySuperseded>false</potentiallySuperseded>
+        </EventStatus>
+        <interval>
+            <duration>4294967295</duration>
+            <start>1670691600</start>
+        </interval>
+        <DERControlBase>
+            <opModVoltWatt href="/pev/derp/1/dc/12"/>
+        </DERControlBase>
+        <deviceCategory>010000</deviceCategory>
+    </DERControl>
+</DERControlList>

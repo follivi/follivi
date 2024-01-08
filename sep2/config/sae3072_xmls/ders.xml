@@ -1,0 +1,20 @@
+<DERStatus xmlns="urn:ieee:std:2030.5:ns" href="/edev/1/der/1/ders">
+ <alarmStatus>00</alarmStatus>
+ <genConnectStatus>
+ <dateTime>1670691600</dateTime>
+ <value>02</value>
+ </genConnectStatus>
+ <inverterStatus>
+ <dateTime>1670691600</dateTime>
+ <value>3</value>
+ </inverterStatus>
+ <operationalModeStatus>
+ <dateTime>1670691600</dateTime>
+ <value>2</value>
+ </operationalModeStatus>
+ <readingTime>1670691670</readingTime>
+ <stateOfChargeStatus>
+ <dateTime>1670691670</dateTime>
+ <value>5000</value>
+ </stateOfChargeStatus>
+</DERStatus>

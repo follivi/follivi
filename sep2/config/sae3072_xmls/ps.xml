@@ -1,0 +1,23 @@
+<PowerStatus xmlns="urn:ieee:std:2030.5:ns" href="/edev/1/ps">
+ <batteryStatus>1</batteryStatus>
+ <changedTime>1670691670</changedTime>
+ <currentPowerSource>2</currentPowerSource>
+ <PEVInfo>
+ <chargingPowerNow>
+ <multiplier>0</multiplier>
+ <value>6000</value>
+ </chargingPowerNow>
+ <energyRequestNow>
+ <multiplier>3</multiplier>
+ <value>24</value>
+ </energyRequestNow>
+ <maxForwardPower>
+ <multiplier>0</multiplier>
+ <value>6500</value>
+ </maxForwardPower>
+ <minimumChargingDuration>14400</minimumChargingDuration>
+ <targetStateOfCharge>8500</targetStateOfCharge>
+ <timeChargeIsNeeded>1670713200</timeChargeIsNeeded>
+ <timeChargingStatusPEV>1670691670</timeChargingStatusPEV>
+ </PEVInfo>
+</PowerStatus>

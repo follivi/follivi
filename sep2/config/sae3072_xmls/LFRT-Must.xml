@@ -1,0 +1,29 @@
+<DERCurve xmlns="urn:ieee:std:2030.5:ns" href="/pev/derp/1/dc/7">
+ <mRID>EEEE000700000000000000000000D17E</mRID>
+ <description>LFRT-Must</description>
+ <creationTime>1670691600</creationTime>
+ <CurveData>
+ <xvalue>16</xvalue>
+ <yvalue>0</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>16</xvalue>
+ <yvalue>5650</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>30000</xvalue>
+ <yvalue>5650</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>30000</xvalue>
+ <yvalue>5850</yvalue>
+ </CurveData>
+ <CurveData>
+ <xvalue>100000</xvalue>
+ <yvalue>5850</yvalue>
+ </CurveData>
+ <curveType>7</curveType>
+ <xMultiplier>-2</xMultiplier>
+ <yMultiplier>-2</yMultiplier>
+ <yRefType>0</yRefType>
+</DERCurve>
