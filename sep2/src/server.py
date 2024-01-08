@@ -852,7 +852,7 @@ def test_init_server():
         print(dataclass_to_xml(v))
         print()
     while True: time.sleep(2)
-    sys.exit()
+    # sys.exit()
     return 
 test_init_server()
 
